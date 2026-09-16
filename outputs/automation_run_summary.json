@@ -1,0 +1,1953 @@
+{
+  "batch_metadata": {
+    "total_records_processed": 44,
+    "automated_records": 44,
+    "automation_rate_pct": 100.0,
+    "flagged_for_review": 0,
+    "rejected_errors": 0,
+    "time_saved_hours_estimate": 0.582
+  },
+  "aggregate_financials_jpy": {
+    "total_base_salary": 20815000.0,
+    "total_deductions_applied": 4618581.0,
+    "total_net_payout": 19068460.0
+  },
+  "detailed_results": [
+    {
+      "employee_id": "DB-YA0BCF-01",
+      "employee_name": "DatasetB Employee 1",
+      "department": "Operations",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 370000.0,
+        "commute_allowance": 52500.0,
+        "overtime_pay": 27519,
+        "retroactive_adjustment": 5000.0,
+        "statutory_deductions": {
+          "health_insurance": 20247,
+          "employees_pension": 36830,
+          "employment_insurance": 2415,
+          "total_social_insurance": 59492
+        },
+        "resident_tax": 21200.0,
+        "income_tax": 13400.0,
+        "total_deductions": 94092.0,
+        "net_payout": 360927.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-YA0BCF-01",
+          "input_employee_name": "DatasetB Employee 1",
+          "select_department": "Operations",
+          "input_base_salary": 370000.0,
+          "input_commute_allowance": 52500.0,
+          "input_overtime_pay": 27519,
+          "input_retroactive_adj": 5000.0,
+          "input_health_insurance": 20247,
+          "input_employees_pension": 36830,
+          "input_employment_insurance": 2415,
+          "input_resident_tax": 21200.0,
+          "input_income_tax": 13400.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-164424-CHAITANYA0BCF (2026-07-01T16:44:42Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386528+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-YA0BCF-02",
+      "employee_name": "DatasetB Employee 2",
+      "department": "Engineering",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 345000.0,
+        "commute_allowance": 43500.0,
+        "overtime_pay": 10781,
+        "retroactive_adjustment": 10000.0,
+        "statutory_deductions": {
+          "health_insurance": 18399,
+          "employees_pension": 33469,
+          "employment_insurance": 2195,
+          "total_social_insurance": 54063
+        },
+        "resident_tax": 12000.0,
+        "income_tax": 8000.0,
+        "total_deductions": 74063.0,
+        "net_payout": 335218.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-YA0BCF-02",
+          "input_employee_name": "DatasetB Employee 2",
+          "select_department": "Engineering",
+          "input_base_salary": 345000.0,
+          "input_commute_allowance": 43500.0,
+          "input_overtime_pay": 10781,
+          "input_retroactive_adj": 10000.0,
+          "input_health_insurance": 18399,
+          "input_employees_pension": 33469,
+          "input_employment_insurance": 2195,
+          "input_resident_tax": 12000.0,
+          "input_income_tax": 8000.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-164424-CHAITANYA0BCF (2026-07-01T16:52:18Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386572+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-YA0BCF-03",
+      "employee_name": "DatasetB Employee 3",
+      "department": "HR",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 680000.0,
+        "commute_allowance": 25500.0,
+        "overtime_pay": 25553,
+        "retroactive_adjustment": 10000.0,
+        "statutory_deductions": {
+          "health_insurance": 35992,
+          "employees_pension": 65473,
+          "employment_insurance": 4293,
+          "total_social_insurance": 105758
+        },
+        "resident_tax": 16600.0,
+        "income_tax": 9800.0,
+        "total_deductions": 132158.0,
+        "net_payout": 608895.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-YA0BCF-03",
+          "input_employee_name": "DatasetB Employee 3",
+          "select_department": "HR",
+          "input_base_salary": 680000.0,
+          "input_commute_allowance": 25500.0,
+          "input_overtime_pay": 25553,
+          "input_retroactive_adj": 10000.0,
+          "input_health_insurance": 35992,
+          "input_employees_pension": 65473,
+          "input_employment_insurance": 4293,
+          "input_resident_tax": 16600.0,
+          "input_income_tax": 9800.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-171614-CHAITANYA0BCF (2026-07-01T17:17:30Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386591+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-YA0BCF-04",
+      "employee_name": "DatasetB Employee 4",
+      "department": "Operations",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 575000.0,
+        "commute_allowance": 16500.0,
+        "overtime_pay": 37330,
+        "retroactive_adjustment": 15000.0,
+        "statutory_deductions": {
+          "health_insurance": 31555,
+          "employees_pension": 57401,
+          "employment_insurance": 3764,
+          "total_social_insurance": 92720
+        },
+        "resident_tax": 23500.0,
+        "income_tax": 13400.0,
+        "total_deductions": 129620.0,
+        "net_payout": 514210.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-YA0BCF-04",
+          "input_employee_name": "DatasetB Employee 4",
+          "select_department": "Operations",
+          "input_base_salary": 575000.0,
+          "input_commute_allowance": 16500.0,
+          "input_overtime_pay": 37330,
+          "input_retroactive_adj": 15000.0,
+          "input_health_insurance": 31555,
+          "input_employees_pension": 57401,
+          "input_employment_insurance": 3764,
+          "input_resident_tax": 23500.0,
+          "input_income_tax": 13400.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-171614-CHAITANYA0BCF (2026-07-01T17:24:41Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386604+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-YA0BCF-05",
+      "employee_name": "DatasetB Employee 5",
+      "department": "Engineering",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 550000.0,
+        "commute_allowance": 7500.0,
+        "overtime_pay": 17188,
+        "retroactive_adjustment": 0.0,
+        "statutory_deductions": {
+          "health_insurance": 28530,
+          "employees_pension": 51898,
+          "employment_insurance": 3403,
+          "total_social_insurance": 83831
+        },
+        "resident_tax": 14300.0,
+        "income_tax": 8000.0,
+        "total_deductions": 106131.0,
+        "net_payout": 468557.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-YA0BCF-05",
+          "input_employee_name": "DatasetB Employee 5",
+          "select_department": "Engineering",
+          "input_base_salary": 550000.0,
+          "input_commute_allowance": 7500.0,
+          "input_overtime_pay": 17188,
+          "input_retroactive_adj": 0.0,
+          "input_health_insurance": 28530,
+          "input_employees_pension": 51898,
+          "input_employment_insurance": 3403,
+          "input_resident_tax": 14300.0,
+          "input_income_tax": 8000.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-171614-CHAITANYA0BCF (2026-07-01T17:28:13Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386618+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-TAB00B-06",
+      "employee_name": "DatasetB Employee 6",
+      "department": "HR",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 525000.0,
+        "commute_allowance": 52500.0,
+        "overtime_pay": 18047,
+        "retroactive_adjustment": 5000.0,
+        "statutory_deductions": {
+          "health_insurance": 27567,
+          "employees_pension": 50146,
+          "employment_insurance": 3288,
+          "total_social_insurance": 81001
+        },
+        "resident_tax": 14300.0,
+        "income_tax": 9800.0,
+        "total_deductions": 105101.0,
+        "net_payout": 495446.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-TAB00B-06",
+          "input_employee_name": "DatasetB Employee 6",
+          "select_department": "HR",
+          "input_base_salary": 525000.0,
+          "input_commute_allowance": 52500.0,
+          "input_overtime_pay": 18047,
+          "input_retroactive_adj": 5000.0,
+          "input_health_insurance": 27567,
+          "input_employees_pension": 50146,
+          "input_employment_insurance": 3288,
+          "input_resident_tax": 14300.0,
+          "input_income_tax": 9800.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-173246-SIDDHIGUPTAB00B (2026-07-01T17:33:03Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386633+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-TAB00B-07",
+      "employee_name": "DatasetB Employee 7",
+      "department": "Operations",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 500000.0,
+        "commute_allowance": 43500.0,
+        "overtime_pay": 33086,
+        "retroactive_adjustment": 10000.0,
+        "statutory_deductions": {
+          "health_insurance": 27317,
+          "employees_pension": 49692,
+          "employment_insurance": 3259,
+          "total_social_insurance": 80268
+        },
+        "resident_tax": 21200.0,
+        "income_tax": 13400.0,
+        "total_deductions": 114868.0,
+        "net_payout": 471718.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-TAB00B-07",
+          "input_employee_name": "DatasetB Employee 7",
+          "select_department": "Operations",
+          "input_base_salary": 500000.0,
+          "input_commute_allowance": 43500.0,
+          "input_overtime_pay": 33086,
+          "input_retroactive_adj": 10000.0,
+          "input_health_insurance": 27317,
+          "input_employees_pension": 49692,
+          "input_employment_insurance": 3259,
+          "input_resident_tax": 21200.0,
+          "input_income_tax": 13400.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-173246-SIDDHIGUPTAB00B (2026-07-01T17:42:26Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386646+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-LA9BAF-08",
+      "employee_name": "DatasetB Employee 8",
+      "department": "Engineering",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 260000.0,
+        "commute_allowance": 7500.0,
+        "overtime_pay": 8125,
+        "retroactive_adjustment": 0.0,
+        "statutory_deductions": {
+          "health_insurance": 13487,
+          "employees_pension": 24533,
+          "employment_insurance": 1609,
+          "total_social_insurance": 39629
+        },
+        "resident_tax": 25800.0,
+        "income_tax": 8000.0,
+        "total_deductions": 73429.0,
+        "net_payout": 202196.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-LA9BAF-08",
+          "input_employee_name": "DatasetB Employee 8",
+          "select_department": "Engineering",
+          "input_base_salary": 260000.0,
+          "input_commute_allowance": 7500.0,
+          "input_overtime_pay": 8125,
+          "input_retroactive_adj": 0.0,
+          "input_health_insurance": 13487,
+          "input_employees_pension": 24533,
+          "input_employment_insurance": 1609,
+          "input_resident_tax": 25800.0,
+          "input_income_tax": 8000.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-173642-NEELA9BAF (2026-07-01T17:37:36Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386659+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-LA9BAF-09",
+      "employee_name": "DatasetB Employee 9",
+      "department": "Finance",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 640000.0,
+        "commute_allowance": 52500.0,
+        "overtime_pay": 30600,
+        "retroactive_adjustment": 5000.0,
+        "statutory_deductions": {
+          "health_insurance": 33983,
+          "employees_pension": 61817,
+          "employment_insurance": 4054,
+          "total_social_insurance": 99854
+        },
+        "resident_tax": 16600.0,
+        "income_tax": 11600.0,
+        "total_deductions": 128054.0,
+        "net_payout": 600046.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-LA9BAF-09",
+          "input_employee_name": "DatasetB Employee 9",
+          "select_department": "Finance",
+          "input_base_salary": 640000.0,
+          "input_commute_allowance": 52500.0,
+          "input_overtime_pay": 30600,
+          "input_retroactive_adj": 5000.0,
+          "input_health_insurance": 33983,
+          "input_employees_pension": 61817,
+          "input_employment_insurance": 4054,
+          "input_resident_tax": 16600.0,
+          "input_income_tax": 11600.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-173642-NEELA9BAF (2026-07-01T17:39:29Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386674+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-LA9BAF-10",
+      "employee_name": "DatasetB Employee 10",
+      "department": "Sales",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 615000.0,
+        "commute_allowance": 43500.0,
+        "overtime_pay": 56119,
+        "retroactive_adjustment": 10000.0,
+        "statutory_deductions": {
+          "health_insurance": 34260,
+          "employees_pension": 62322,
+          "employment_insurance": 4087,
+          "total_social_insurance": 100669
+        },
+        "resident_tax": 23500.0,
+        "income_tax": 15200.0,
+        "total_deductions": 139369.0,
+        "net_payout": 585250.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-LA9BAF-10",
+          "input_employee_name": "DatasetB Employee 10",
+          "select_department": "Sales",
+          "input_base_salary": 615000.0,
+          "input_commute_allowance": 43500.0,
+          "input_overtime_pay": 56119,
+          "input_retroactive_adj": 10000.0,
+          "input_health_insurance": 34260,
+          "input_employees_pension": 62322,
+          "input_employment_insurance": 4087,
+          "input_resident_tax": 23500.0,
+          "input_income_tax": 15200.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-173642-NEELA9BAF (2026-07-01T17:40:48Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386687+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-LA9BAF-11",
+      "employee_name": "DatasetB Employee 11",
+      "department": "HR",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 590000.0,
+        "commute_allowance": 34500.0,
+        "overtime_pay": 19267,
+        "retroactive_adjustment": 15000.0,
+        "statutory_deductions": {
+          "health_insurance": 31401,
+          "employees_pension": 57120,
+          "employment_insurance": 3746,
+          "total_social_insurance": 92267
+        },
+        "resident_tax": 14300.0,
+        "income_tax": 9800.0,
+        "total_deductions": 116367.0,
+        "net_payout": 542400.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-LA9BAF-11",
+          "input_employee_name": "DatasetB Employee 11",
+          "select_department": "HR",
+          "input_base_salary": 590000.0,
+          "input_commute_allowance": 34500.0,
+          "input_overtime_pay": 19267,
+          "input_retroactive_adj": 15000.0,
+          "input_health_insurance": 31401,
+          "input_employees_pension": 57120,
+          "input_employment_insurance": 3746,
+          "input_resident_tax": 14300.0,
+          "input_income_tax": 9800.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-173642-NEELA9BAF (2026-07-01T17:45:13Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386700+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-12",
+      "employee_name": "DatasetB Employee 12",
+      "department": "Sales",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 440000.0,
+        "commute_allowance": 16500.0,
+        "overtime_pay": 37125,
+        "retroactive_adjustment": 15000.0,
+        "statutory_deductions": {
+          "health_insurance": 24754,
+          "employees_pension": 45029,
+          "employment_insurance": 2953,
+          "total_social_insurance": 72736
+        },
+        "resident_tax": 14300.0,
+        "income_tax": 15200.0,
+        "total_deductions": 102236.0,
+        "net_payout": 406389.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-12",
+          "input_employee_name": "DatasetB Employee 12",
+          "select_department": "Sales",
+          "input_base_salary": 440000.0,
+          "input_commute_allowance": 16500.0,
+          "input_overtime_pay": 37125,
+          "input_retroactive_adj": 15000.0,
+          "input_health_insurance": 24754,
+          "input_employees_pension": 45029,
+          "input_employment_insurance": 2953,
+          "input_resident_tax": 14300.0,
+          "input_income_tax": 15200.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-175258-LAPTOP-76QMG9DE (2026-07-01T17:54:20Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386713+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-13",
+      "employee_name": "DatasetB Employee 13",
+      "department": "HR",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 415000.0,
+        "commute_allowance": 7500.0,
+        "overtime_pay": 14849,
+        "retroactive_adjustment": 0.0,
+        "statutory_deductions": {
+          "health_insurance": 21621,
+          "employees_pension": 39331,
+          "employment_insurance": 2579,
+          "total_social_insurance": 63531
+        },
+        "resident_tax": 21200.0,
+        "income_tax": 9800.0,
+        "total_deductions": 94531.0,
+        "net_payout": 342818.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-13",
+          "input_employee_name": "DatasetB Employee 13",
+          "select_department": "HR",
+          "input_base_salary": 415000.0,
+          "input_commute_allowance": 7500.0,
+          "input_overtime_pay": 14849,
+          "input_retroactive_adj": 0.0,
+          "input_health_insurance": 21621,
+          "input_employees_pension": 39331,
+          "input_employment_insurance": 2579,
+          "input_resident_tax": 21200.0,
+          "input_income_tax": 9800.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-175258-LAPTOP-76QMG9DE (2026-07-01T17:57:00Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386729+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-14",
+      "employee_name": "DatasetB Employee 14",
+      "department": "Operations",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 390000.0,
+        "commute_allowance": 52500.0,
+        "overtime_pay": 24984,
+        "retroactive_adjustment": 5000.0,
+        "statutory_deductions": {
+          "health_insurance": 21125,
+          "employees_pension": 38429,
+          "employment_insurance": 2520,
+          "total_social_insurance": 62074
+        },
+        "resident_tax": 12000.0,
+        "income_tax": 13400.0,
+        "total_deductions": 87474.0,
+        "net_payout": 385010.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-14",
+          "input_employee_name": "DatasetB Employee 14",
+          "select_department": "Operations",
+          "input_base_salary": 390000.0,
+          "input_commute_allowance": 52500.0,
+          "input_overtime_pay": 24984,
+          "input_retroactive_adj": 5000.0,
+          "input_health_insurance": 21125,
+          "input_employees_pension": 38429,
+          "input_employment_insurance": 2520,
+          "input_resident_tax": 12000.0,
+          "input_income_tax": 13400.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-175258-LAPTOP-76QMG9DE (2026-07-01T17:59:15Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386742+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-15",
+      "employee_name": "DatasetB Employee 15",
+      "department": "Engineering",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 365000.0,
+        "commute_allowance": 43500.0,
+        "overtime_pay": 11406,
+        "retroactive_adjustment": 10000.0,
+        "statutory_deductions": {
+          "health_insurance": 19436,
+          "employees_pension": 35356,
+          "employment_insurance": 2318,
+          "total_social_insurance": 57110
+        },
+        "resident_tax": 18900.0,
+        "income_tax": 8000.0,
+        "total_deductions": 84010.0,
+        "net_payout": 345896.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-15",
+          "input_employee_name": "DatasetB Employee 15",
+          "select_department": "Engineering",
+          "input_base_salary": 365000.0,
+          "input_commute_allowance": 43500.0,
+          "input_overtime_pay": 11406,
+          "input_retroactive_adj": 10000.0,
+          "input_health_insurance": 19436,
+          "input_employees_pension": 35356,
+          "input_employment_insurance": 2318,
+          "input_resident_tax": 18900.0,
+          "input_income_tax": 8000.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-175258-LAPTOP-76QMG9DE (2026-07-01T18:01:53Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386756+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-TAB00B-16",
+      "employee_name": "DatasetB Employee 16",
+      "department": "Sales",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 395000.0,
+        "commute_allowance": 34500.0,
+        "overtime_pay": 33081,
+        "retroactive_adjustment": 15000.0,
+        "statutory_deductions": {
+          "health_insurance": 22287,
+          "employees_pension": 40542,
+          "employment_insurance": 2658,
+          "total_social_insurance": 65487
+        },
+        "resident_tax": 21200.0,
+        "income_tax": 15200.0,
+        "total_deductions": 101887.0,
+        "net_payout": 375694.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-TAB00B-16",
+          "input_employee_name": "DatasetB Employee 16",
+          "select_department": "Sales",
+          "input_base_salary": 395000.0,
+          "input_commute_allowance": 34500.0,
+          "input_overtime_pay": 33081,
+          "input_retroactive_adj": 15000.0,
+          "input_health_insurance": 22287,
+          "input_employees_pension": 40542,
+          "input_employment_insurance": 2658,
+          "input_resident_tax": 21200.0,
+          "input_income_tax": 15200.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-175747-SIDDHIGUPTAB00B (2026-07-01T17:58:30Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386774+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-TAB00B-17",
+      "employee_name": "DatasetB Employee 17",
+      "department": "HR",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 370000.0,
+        "commute_allowance": 25500.0,
+        "overtime_pay": 12198,
+        "retroactive_adjustment": 0.0,
+        "statutory_deductions": {
+          "health_insurance": 19225,
+          "employees_pension": 34971,
+          "employment_insurance": 2293,
+          "total_social_insurance": 56489
+        },
+        "resident_tax": 12000.0,
+        "income_tax": 9800.0,
+        "total_deductions": 78289.0,
+        "net_payout": 329409.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-TAB00B-17",
+          "input_employee_name": "DatasetB Employee 17",
+          "select_department": "HR",
+          "input_base_salary": 370000.0,
+          "input_commute_allowance": 25500.0,
+          "input_overtime_pay": 12198,
+          "input_retroactive_adj": 0.0,
+          "input_health_insurance": 19225,
+          "input_employees_pension": 34971,
+          "input_employment_insurance": 2293,
+          "input_resident_tax": 12000.0,
+          "input_income_tax": 9800.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-175747-SIDDHIGUPTAB00B (2026-07-01T18:01:36Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386787+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-TAB00B-18",
+      "employee_name": "DatasetB Employee 18",
+      "department": "Operations",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 345000.0,
+        "commute_allowance": 16500.0,
+        "overtime_pay": 22452,
+        "retroactive_adjustment": 5000.0,
+        "statutory_deductions": {
+          "health_insurance": 18734,
+          "employees_pension": 34079,
+          "employment_insurance": 2235,
+          "total_social_insurance": 55048
+        },
+        "resident_tax": 18900.0,
+        "income_tax": 13400.0,
+        "total_deductions": 87348.0,
+        "net_payout": 301604.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-TAB00B-18",
+          "input_employee_name": "DatasetB Employee 18",
+          "select_department": "Operations",
+          "input_base_salary": 345000.0,
+          "input_commute_allowance": 16500.0,
+          "input_overtime_pay": 22452,
+          "input_retroactive_adj": 5000.0,
+          "input_health_insurance": 18734,
+          "input_employees_pension": 34079,
+          "input_employment_insurance": 2235,
+          "input_resident_tax": 18900.0,
+          "input_income_tax": 13400.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-175747-SIDDHIGUPTAB00B (2026-07-01T18:02:57Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386806+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-TAB00B-19",
+      "employee_name": "DatasetB Employee 19",
+      "department": "Engineering",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 320000.0,
+        "commute_allowance": 7500.0,
+        "overtime_pay": 10000,
+        "retroactive_adjustment": 10000.0,
+        "statutory_deductions": {
+          "health_insurance": 17102,
+          "employees_pension": 31110,
+          "employment_insurance": 2040,
+          "total_social_insurance": 50252
+        },
+        "resident_tax": 25800.0,
+        "income_tax": 8000.0,
+        "total_deductions": 84052.0,
+        "net_payout": 263448.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-TAB00B-19",
+          "input_employee_name": "DatasetB Employee 19",
+          "select_department": "Engineering",
+          "input_base_salary": 320000.0,
+          "input_commute_allowance": 7500.0,
+          "input_overtime_pay": 10000,
+          "input_retroactive_adj": 10000.0,
+          "input_health_insurance": 17102,
+          "input_employees_pension": 31110,
+          "input_employment_insurance": 2040,
+          "input_resident_tax": 25800.0,
+          "input_income_tax": 8000.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-175747-SIDDHIGUPTAB00B (2026-07-01T18:05:59Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386818+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-20",
+      "employee_name": "DatasetB Employee 20",
+      "department": "Engineering",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 440000.0,
+        "commute_allowance": 16500.0,
+        "overtime_pay": 13750,
+        "retroactive_adjustment": 5000.0,
+        "statutory_deductions": {
+          "health_insurance": 23075,
+          "employees_pension": 41976,
+          "employment_insurance": 2752,
+          "total_social_insurance": 67803
+        },
+        "resident_tax": 14300.0,
+        "income_tax": 8000.0,
+        "total_deductions": 90103.0,
+        "net_payout": 385147.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-20",
+          "input_employee_name": "DatasetB Employee 20",
+          "select_department": "Engineering",
+          "input_base_salary": 440000.0,
+          "input_commute_allowance": 16500.0,
+          "input_overtime_pay": 13750,
+          "input_retroactive_adj": 5000.0,
+          "input_health_insurance": 23075,
+          "input_employees_pension": 41976,
+          "input_employment_insurance": 2752,
+          "input_resident_tax": 14300.0,
+          "input_income_tax": 8000.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-181413-LAPTOP-76QMG9DE (2026-07-01T18:16:53Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386830+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-21",
+      "employee_name": "DatasetB Employee 21",
+      "department": "Finance",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 415000.0,
+        "commute_allowance": 7500.0,
+        "overtime_pay": 19745,
+        "retroactive_adjustment": 10000.0,
+        "statutory_deductions": {
+          "health_insurance": 22371,
+          "employees_pension": 40694,
+          "employment_insurance": 2668,
+          "total_social_insurance": 65733
+        },
+        "resident_tax": 21200.0,
+        "income_tax": 11600.0,
+        "total_deductions": 98533.0,
+        "net_payout": 353712.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-21",
+          "input_employee_name": "DatasetB Employee 21",
+          "select_department": "Finance",
+          "input_base_salary": 415000.0,
+          "input_commute_allowance": 7500.0,
+          "input_overtime_pay": 19745,
+          "input_retroactive_adj": 10000.0,
+          "input_health_insurance": 22371,
+          "input_employees_pension": 40694,
+          "input_employment_insurance": 2668,
+          "input_resident_tax": 21200.0,
+          "input_income_tax": 11600.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-181413-LAPTOP-76QMG9DE (2026-07-01T18:18:48Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386842+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-22",
+      "employee_name": "DatasetB Employee 22",
+      "department": "Sales",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 390000.0,
+        "commute_allowance": 52500.0,
+        "overtime_pay": 31718,
+        "retroactive_adjustment": 15000.0,
+        "statutory_deductions": {
+          "health_insurance": 21967,
+          "employees_pension": 39960,
+          "employment_insurance": 2620,
+          "total_social_insurance": 64547
+        },
+        "resident_tax": 12000.0,
+        "income_tax": 15200.0,
+        "total_deductions": 91747.0,
+        "net_payout": 397471.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-22",
+          "input_employee_name": "DatasetB Employee 22",
+          "select_department": "Sales",
+          "input_base_salary": 390000.0,
+          "input_commute_allowance": 52500.0,
+          "input_overtime_pay": 31718,
+          "input_retroactive_adj": 15000.0,
+          "input_health_insurance": 21967,
+          "input_employees_pension": 39960,
+          "input_employment_insurance": 2620,
+          "input_resident_tax": 12000.0,
+          "input_income_tax": 15200.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-181413-LAPTOP-76QMG9DE (2026-07-01T18:19:58Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386854+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-23",
+      "employee_name": "DatasetB Employee 23",
+      "department": "HR",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 365000.0,
+        "commute_allowance": 43500.0,
+        "overtime_pay": 12461,
+        "retroactive_adjustment": 0.0,
+        "statutory_deductions": {
+          "health_insurance": 18986,
+          "employees_pension": 34538,
+          "employment_insurance": 2265,
+          "total_social_insurance": 55789
+        },
+        "resident_tax": 18900.0,
+        "income_tax": 9800.0,
+        "total_deductions": 84489.0,
+        "net_payout": 336472.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-23",
+          "input_employee_name": "DatasetB Employee 23",
+          "select_department": "HR",
+          "input_base_salary": 365000.0,
+          "input_commute_allowance": 43500.0,
+          "input_overtime_pay": 12461,
+          "input_retroactive_adj": 0.0,
+          "input_health_insurance": 18986,
+          "input_employees_pension": 34538,
+          "input_employment_insurance": 2265,
+          "input_resident_tax": 18900.0,
+          "input_income_tax": 9800.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-181413-LAPTOP-76QMG9DE (2026-07-01T18:22:14Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386865+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-24",
+      "employee_name": "DatasetB Employee 24",
+      "department": "Operations",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 260000.0,
+        "commute_allowance": 34500.0,
+        "overtime_pay": 16880,
+        "retroactive_adjustment": 5000.0,
+        "statutory_deductions": {
+          "health_insurance": 14179,
+          "employees_pension": 25792,
+          "employment_insurance": 1691,
+          "total_social_insurance": 41662
+        },
+        "resident_tax": 25800.0,
+        "income_tax": 13400.0,
+        "total_deductions": 80862.0,
+        "net_payout": 235518.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-24",
+          "input_employee_name": "DatasetB Employee 24",
+          "select_department": "Operations",
+          "input_base_salary": 260000.0,
+          "input_commute_allowance": 34500.0,
+          "input_overtime_pay": 16880,
+          "input_retroactive_adj": 5000.0,
+          "input_health_insurance": 14179,
+          "input_employees_pension": 25792,
+          "input_employment_insurance": 1691,
+          "input_resident_tax": 25800.0,
+          "input_income_tax": 13400.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-181413-LAPTOP-76QMG9DE (2026-07-01T18:26:22Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386877+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-TAB00B-25",
+      "employee_name": "DatasetB Employee 25",
+      "department": "Sales",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 460000.0,
+        "commute_allowance": 43500.0,
+        "overtime_pay": 36872,
+        "retroactive_adjustment": 0.0,
+        "statutory_deductions": {
+          "health_insurance": 24993,
+          "employees_pension": 45464,
+          "employment_insurance": 2981,
+          "total_social_insurance": 73438
+        },
+        "resident_tax": 16600.0,
+        "income_tax": 15200.0,
+        "total_deductions": 105238.0,
+        "net_payout": 435134.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-TAB00B-25",
+          "input_employee_name": "DatasetB Employee 25",
+          "select_department": "Sales",
+          "input_base_salary": 460000.0,
+          "input_commute_allowance": 43500.0,
+          "input_overtime_pay": 36872,
+          "input_retroactive_adj": 0.0,
+          "input_health_insurance": 24993,
+          "input_employees_pension": 45464,
+          "input_employment_insurance": 2981,
+          "input_resident_tax": 16600.0,
+          "input_income_tax": 15200.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-181913-SIDDHIGUPTAB00B (2026-07-01T18:20:38Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386888+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-TAB00B-26",
+      "employee_name": "DatasetB Employee 26",
+      "department": "HR",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 435000.0,
+        "commute_allowance": 34500.0,
+        "overtime_pay": 15973,
+        "retroactive_adjustment": 5000.0,
+        "statutory_deductions": {
+          "health_insurance": 22935,
+          "employees_pension": 41722,
+          "employment_insurance": 2736,
+          "total_social_insurance": 67393
+        },
+        "resident_tax": 23500.0,
+        "income_tax": 9800.0,
+        "total_deductions": 100693.0,
+        "net_payout": 389780.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-TAB00B-26",
+          "input_employee_name": "DatasetB Employee 26",
+          "select_department": "HR",
+          "input_base_salary": 435000.0,
+          "input_commute_allowance": 34500.0,
+          "input_overtime_pay": 15973,
+          "input_retroactive_adj": 5000.0,
+          "input_health_insurance": 22935,
+          "input_employees_pension": 41722,
+          "input_employment_insurance": 2736,
+          "input_resident_tax": 23500.0,
+          "input_income_tax": 9800.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-181913-SIDDHIGUPTAB00B (2026-07-01T18:26:58Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386897+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-LA9BAF-27",
+      "employee_name": "DatasetB Employee 27",
+      "department": "Sales",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 320000.0,
+        "commute_allowance": 7500.0,
+        "overtime_pay": 28100,
+        "retroactive_adjustment": 0.0,
+        "statutory_deductions": {
+          "health_insurance": 17509,
+          "employees_pension": 31851,
+          "employment_insurance": 2089,
+          "total_social_insurance": 51449
+        },
+        "resident_tax": 14300.0,
+        "income_tax": 15200.0,
+        "total_deductions": 80949.0,
+        "net_payout": 274651.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-LA9BAF-27",
+          "input_employee_name": "DatasetB Employee 27",
+          "select_department": "Sales",
+          "input_base_salary": 320000.0,
+          "input_commute_allowance": 7500.0,
+          "input_overtime_pay": 28100,
+          "input_retroactive_adj": 0.0,
+          "input_health_insurance": 17509,
+          "input_employees_pension": 31851,
+          "input_employment_insurance": 2089,
+          "input_resident_tax": 14300.0,
+          "input_income_tax": 15200.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-182634-NEELA9BAF (2026-07-01T18:29:29Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386906+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-28",
+      "employee_name": "DatasetB Employee 28",
+      "department": "Finance",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 530000.0,
+        "commute_allowance": 7500.0,
+        "overtime_pay": 31386,
+        "retroactive_adjustment": 10000.0,
+        "statutory_deductions": {
+          "health_insurance": 28741,
+          "employees_pension": 52282,
+          "employment_insurance": 3428,
+          "total_social_insurance": 84451
+        },
+        "resident_tax": 23500.0,
+        "income_tax": 11600.0,
+        "total_deductions": 119551.0,
+        "net_payout": 459335.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-28",
+          "input_employee_name": "DatasetB Employee 28",
+          "select_department": "Finance",
+          "input_base_salary": 530000.0,
+          "input_commute_allowance": 7500.0,
+          "input_overtime_pay": 31386,
+          "input_retroactive_adj": 10000.0,
+          "input_health_insurance": 28741,
+          "input_employees_pension": 52282,
+          "input_employment_insurance": 3428,
+          "input_resident_tax": 23500.0,
+          "input_income_tax": 11600.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-183232-LAPTOP-76QMG9DE (2026-07-01T18:32:51Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386915+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-29",
+      "employee_name": "DatasetB Employee 29",
+      "department": "Sales",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 505000.0,
+        "commute_allowance": 52500.0,
+        "overtime_pay": 39927,
+        "retroactive_adjustment": 15000.0,
+        "statutory_deductions": {
+          "health_insurance": 28164,
+          "employees_pension": 51233,
+          "employment_insurance": 3360,
+          "total_social_insurance": 82757
+        },
+        "resident_tax": 14300.0,
+        "income_tax": 15200.0,
+        "total_deductions": 112257.0,
+        "net_payout": 500170.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-29",
+          "input_employee_name": "DatasetB Employee 29",
+          "select_department": "Sales",
+          "input_base_salary": 505000.0,
+          "input_commute_allowance": 52500.0,
+          "input_overtime_pay": 39927,
+          "input_retroactive_adj": 15000.0,
+          "input_health_insurance": 28164,
+          "input_employees_pension": 51233,
+          "input_employment_insurance": 3360,
+          "input_resident_tax": 14300.0,
+          "input_income_tax": 15200.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-183232-LAPTOP-76QMG9DE (2026-07-01T18:37:20Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386923+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-30",
+      "employee_name": "DatasetB Employee 30",
+      "department": "HR",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 480000.0,
+        "commute_allowance": 43500.0,
+        "overtime_pay": 15563,
+        "retroactive_adjustment": 0.0,
+        "statutory_deductions": {
+          "health_insurance": 24927,
+          "employees_pension": 45344,
+          "employment_insurance": 2973,
+          "total_social_insurance": 73244
+        },
+        "resident_tax": 21200.0,
+        "income_tax": 9800.0,
+        "total_deductions": 104244.0,
+        "net_payout": 434819.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-30",
+          "input_employee_name": "DatasetB Employee 30",
+          "select_department": "HR",
+          "input_base_salary": 480000.0,
+          "input_commute_allowance": 43500.0,
+          "input_overtime_pay": 15563,
+          "input_retroactive_adj": 0.0,
+          "input_health_insurance": 24927,
+          "input_employees_pension": 45344,
+          "input_employment_insurance": 2973,
+          "input_resident_tax": 21200.0,
+          "input_income_tax": 9800.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-183232-LAPTOP-76QMG9DE (2026-07-01T18:37:49Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386932+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-31",
+      "employee_name": "DatasetB Employee 31",
+      "department": "Engineering",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 320000.0,
+        "commute_allowance": 7500.0,
+        "overtime_pay": 10000,
+        "retroactive_adjustment": 10000.0,
+        "statutory_deductions": {
+          "health_insurance": 17102,
+          "employees_pension": 31110,
+          "employment_insurance": 2040,
+          "total_social_insurance": 50252
+        },
+        "resident_tax": 21200.0,
+        "income_tax": 8000.0,
+        "total_deductions": 79452.0,
+        "net_payout": 268048.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-31",
+          "input_employee_name": "DatasetB Employee 31",
+          "select_department": "Engineering",
+          "input_base_salary": 320000.0,
+          "input_commute_allowance": 7500.0,
+          "input_overtime_pay": 10000,
+          "input_retroactive_adj": 10000.0,
+          "input_health_insurance": 17102,
+          "input_employees_pension": 31110,
+          "input_employment_insurance": 2040,
+          "input_resident_tax": 21200.0,
+          "input_income_tax": 8000.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-184201-LAPTOP-76QMG9DE (2026-07-01T18:51:00Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386941+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-32",
+      "employee_name": "DatasetB Employee 32",
+      "department": "Finance",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 620000.0,
+        "commute_allowance": 52500.0,
+        "overtime_pay": 30661,
+        "retroactive_adjustment": 15000.0,
+        "statutory_deductions": {
+          "health_insurance": 33483,
+          "employees_pension": 60908,
+          "employment_insurance": 3994,
+          "total_social_insurance": 98385
+        },
+        "resident_tax": 12000.0,
+        "income_tax": 11600.0,
+        "total_deductions": 121985.0,
+        "net_payout": 596176.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-32",
+          "input_employee_name": "DatasetB Employee 32",
+          "select_department": "Finance",
+          "input_base_salary": 620000.0,
+          "input_commute_allowance": 52500.0,
+          "input_overtime_pay": 30661,
+          "input_retroactive_adj": 15000.0,
+          "input_health_insurance": 33483,
+          "input_employees_pension": 60908,
+          "input_employment_insurance": 3994,
+          "input_resident_tax": 12000.0,
+          "input_income_tax": 11600.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-184201-LAPTOP-76QMG9DE (2026-07-01T18:52:47Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386949+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-33",
+      "employee_name": "DatasetB Employee 33",
+      "department": "Sales",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 595000.0,
+        "commute_allowance": 43500.0,
+        "overtime_pay": 46903,
+        "retroactive_adjustment": 0.0,
+        "statutory_deductions": {
+          "health_insurance": 32288,
+          "employees_pension": 58734,
+          "employment_insurance": 3851,
+          "total_social_insurance": 94873
+        },
+        "resident_tax": 18900.0,
+        "income_tax": 15200.0,
+        "total_deductions": 128973.0,
+        "net_payout": 556430.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-33",
+          "input_employee_name": "DatasetB Employee 33",
+          "select_department": "Sales",
+          "input_base_salary": 595000.0,
+          "input_commute_allowance": 43500.0,
+          "input_overtime_pay": 46903,
+          "input_retroactive_adj": 0.0,
+          "input_health_insurance": 32288,
+          "input_employees_pension": 58734,
+          "input_employment_insurance": 3851,
+          "input_resident_tax": 18900.0,
+          "input_income_tax": 15200.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-184201-LAPTOP-76QMG9DE (2026-07-01T18:53:49Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386958+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-34",
+      "employee_name": "DatasetB Employee 34",
+      "department": "HR",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 570000.0,
+        "commute_allowance": 34500.0,
+        "overtime_pay": 18169,
+        "retroactive_adjustment": 5000.0,
+        "statutory_deductions": {
+          "health_insurance": 29836,
+          "employees_pension": 54275,
+          "employment_insurance": 3559,
+          "total_social_insurance": 87670
+        },
+        "resident_tax": 25800.0,
+        "income_tax": 9800.0,
+        "total_deductions": 123270.0,
+        "net_payout": 504399.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-34",
+          "input_employee_name": "DatasetB Employee 34",
+          "select_department": "HR",
+          "input_base_salary": 570000.0,
+          "input_commute_allowance": 34500.0,
+          "input_overtime_pay": 18169,
+          "input_retroactive_adj": 5000.0,
+          "input_health_insurance": 29836,
+          "input_employees_pension": 54275,
+          "input_employment_insurance": 3559,
+          "input_resident_tax": 25800.0,
+          "input_income_tax": 9800.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-184201-LAPTOP-76QMG9DE (2026-07-01T18:54:42Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386967+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-35",
+      "employee_name": "DatasetB Employee 35",
+      "department": "Operations",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 545000.0,
+        "commute_allowance": 25500.0,
+        "overtime_pay": 35638,
+        "retroactive_adjustment": 10000.0,
+        "statutory_deductions": {
+          "health_insurance": 29709,
+          "employees_pension": 54043,
+          "employment_insurance": 3544,
+          "total_social_insurance": 87296
+        },
+        "resident_tax": 16600.0,
+        "income_tax": 13400.0,
+        "total_deductions": 117296.0,
+        "net_payout": 498842.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-35",
+          "input_employee_name": "DatasetB Employee 35",
+          "select_department": "Operations",
+          "input_base_salary": 545000.0,
+          "input_commute_allowance": 25500.0,
+          "input_overtime_pay": 35638,
+          "input_retroactive_adj": 10000.0,
+          "input_health_insurance": 29709,
+          "input_employees_pension": 54043,
+          "input_employment_insurance": 3544,
+          "input_resident_tax": 16600.0,
+          "input_income_tax": 13400.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-184201-LAPTOP-76QMG9DE (2026-07-01T18:51:00Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386976+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-36",
+      "employee_name": "DatasetB Employee 36",
+      "department": "Engineering",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 440000.0,
+        "commute_allowance": 16500.0,
+        "overtime_pay": 13750,
+        "retroactive_adjustment": 15000.0,
+        "statutory_deductions": {
+          "health_insurance": 23578,
+          "employees_pension": 42891,
+          "employment_insurance": 2812,
+          "total_social_insurance": 69281
+        },
+        "resident_tax": 23500.0,
+        "income_tax": 8000.0,
+        "total_deductions": 100781.0,
+        "net_payout": 384469.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-36",
+          "input_employee_name": "DatasetB Employee 36",
+          "select_department": "Engineering",
+          "input_base_salary": 440000.0,
+          "input_commute_allowance": 16500.0,
+          "input_overtime_pay": 13750,
+          "input_retroactive_adj": 15000.0,
+          "input_health_insurance": 23578,
+          "input_employees_pension": 42891,
+          "input_employment_insurance": 2812,
+          "input_resident_tax": 23500.0,
+          "input_income_tax": 8000.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-184201-LAPTOP-76QMG9DE (2026-07-01T18:52:47Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386986+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-37",
+      "employee_name": "DatasetB Employee 37",
+      "department": "Finance",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 415000.0,
+        "commute_allowance": 7500.0,
+        "overtime_pay": 19745,
+        "retroactive_adjustment": 0.0,
+        "statutory_deductions": {
+          "health_insurance": 21868,
+          "employees_pension": 39779,
+          "employment_insurance": 2608,
+          "total_social_insurance": 64255
+        },
+        "resident_tax": 14300.0,
+        "income_tax": 11600.0,
+        "total_deductions": 90155.0,
+        "net_payout": 352090.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-37",
+          "input_employee_name": "DatasetB Employee 37",
+          "select_department": "Finance",
+          "input_base_salary": 415000.0,
+          "input_commute_allowance": 7500.0,
+          "input_overtime_pay": 19745,
+          "input_retroactive_adj": 0.0,
+          "input_health_insurance": 21868,
+          "input_employees_pension": 39779,
+          "input_employment_insurance": 2608,
+          "input_resident_tax": 14300.0,
+          "input_income_tax": 11600.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-184201-LAPTOP-76QMG9DE (2026-07-01T18:53:49Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.386995+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-38",
+      "employee_name": "DatasetB Employee 38",
+      "department": "Sales",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 390000.0,
+        "commute_allowance": 52500.0,
+        "overtime_pay": 30713,
+        "retroactive_adjustment": 5000.0,
+        "statutory_deductions": {
+          "health_insurance": 21413,
+          "employees_pension": 38953,
+          "employment_insurance": 2554,
+          "total_social_insurance": 62920
+        },
+        "resident_tax": 21200.0,
+        "income_tax": 15200.0,
+        "total_deductions": 99320.0,
+        "net_payout": 378893.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-38",
+          "input_employee_name": "DatasetB Employee 38",
+          "select_department": "Sales",
+          "input_base_salary": 390000.0,
+          "input_commute_allowance": 52500.0,
+          "input_overtime_pay": 30713,
+          "input_retroactive_adj": 5000.0,
+          "input_health_insurance": 21413,
+          "input_employees_pension": 38953,
+          "input_employment_insurance": 2554,
+          "input_resident_tax": 21200.0,
+          "input_income_tax": 15200.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-184201-LAPTOP-76QMG9DE (2026-07-01T18:54:42Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.387004+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-LA9BAF-39",
+      "employee_name": "DatasetB Employee 39",
+      "department": "HR",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 680000.0,
+        "commute_allowance": 52500.0,
+        "overtime_pay": 35700,
+        "retroactive_adjustment": 5000.0,
+        "statutory_deductions": {
+          "health_insurance": 36251,
+          "employees_pension": 65944,
+          "employment_insurance": 4324,
+          "total_social_insurance": 106519
+        },
+        "resident_tax": 16600.0,
+        "income_tax": 9800.0,
+        "total_deductions": 132919.0,
+        "net_payout": 640281.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-LA9BAF-39",
+          "input_employee_name": "DatasetB Employee 39",
+          "select_department": "HR",
+          "input_base_salary": 680000.0,
+          "input_commute_allowance": 52500.0,
+          "input_overtime_pay": 35700,
+          "input_retroactive_adj": 5000.0,
+          "input_health_insurance": 36251,
+          "input_employees_pension": 65944,
+          "input_employment_insurance": 4324,
+          "input_resident_tax": 16600.0,
+          "input_income_tax": 9800.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-190250-NEELA9BAF (2026-07-01T19:02:58Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.387013+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-LA9BAF-40",
+      "employee_name": "DatasetB Employee 40",
+      "department": "Operations",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 575000.0,
+        "commute_allowance": 43500.0,
+        "overtime_pay": 38408,
+        "retroactive_adjustment": 10000.0,
+        "statutory_deductions": {
+          "health_insurance": 31357,
+          "employees_pension": 57042,
+          "employment_insurance": 3740,
+          "total_social_insurance": 92139
+        },
+        "resident_tax": 23500.0,
+        "income_tax": 13400.0,
+        "total_deductions": 129039.0,
+        "net_payout": 537869.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-LA9BAF-40",
+          "input_employee_name": "DatasetB Employee 40",
+          "select_department": "Operations",
+          "input_base_salary": 575000.0,
+          "input_commute_allowance": 43500.0,
+          "input_overtime_pay": 38408,
+          "input_retroactive_adj": 10000.0,
+          "input_health_insurance": 31357,
+          "input_employees_pension": 57042,
+          "input_employment_insurance": 3740,
+          "input_resident_tax": 23500.0,
+          "input_income_tax": 13400.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-190250-NEELA9BAF (2026-07-01T19:10:04Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.387023+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-LA9BAF-41",
+      "employee_name": "DatasetB Employee 41",
+      "department": "Engineering",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 550000.0,
+        "commute_allowance": 34500.0,
+        "overtime_pay": 17188,
+        "retroactive_adjustment": 15000.0,
+        "statutory_deductions": {
+          "health_insurance": 29284,
+          "employees_pension": 53270,
+          "employment_insurance": 3493,
+          "total_social_insurance": 86047
+        },
+        "resident_tax": 14300.0,
+        "income_tax": 8000.0,
+        "total_deductions": 108347.0,
+        "net_payout": 508341.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-LA9BAF-41",
+          "input_employee_name": "DatasetB Employee 41",
+          "select_department": "Engineering",
+          "input_base_salary": 550000.0,
+          "input_commute_allowance": 34500.0,
+          "input_overtime_pay": 17188,
+          "input_retroactive_adj": 15000.0,
+          "input_health_insurance": 29284,
+          "input_employees_pension": 53270,
+          "input_employment_insurance": 3493,
+          "input_resident_tax": 14300.0,
+          "input_income_tax": 8000.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-190250-NEELA9BAF (2026-07-01T19:11:24Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.387032+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-42",
+      "employee_name": "DatasetB Employee 42",
+      "department": "Finance",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 660000.0,
+        "commute_allowance": 52500.0,
+        "overtime_pay": 35475,
+        "retroactive_adjustment": 15000.0,
+        "statutory_deductions": {
+          "health_insurance": 35737,
+          "employees_pension": 65008,
+          "employment_insurance": 4263,
+          "total_social_insurance": 105008
+        },
+        "resident_tax": 23500.0,
+        "income_tax": 11600.0,
+        "total_deductions": 140108.0,
+        "net_payout": 622867.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-42",
+          "input_employee_name": "DatasetB Employee 42",
+          "select_department": "Finance",
+          "input_base_salary": 660000.0,
+          "input_commute_allowance": 52500.0,
+          "input_overtime_pay": 35475,
+          "input_retroactive_adj": 15000.0,
+          "input_health_insurance": 35737,
+          "input_employees_pension": 65008,
+          "input_employment_insurance": 4263,
+          "input_resident_tax": 23500.0,
+          "input_income_tax": 11600.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-191537-LAPTOP-76QMG9DE (2026-07-01T19:16:18Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.387041+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-43",
+      "employee_name": "DatasetB Employee 43",
+      "department": "Sales",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 635000.0,
+        "commute_allowance": 43500.0,
+        "overtime_pay": 59234,
+        "retroactive_adjustment": 0.0,
+        "statutory_deductions": {
+          "health_insurance": 34920,
+          "employees_pension": 63522,
+          "employment_insurance": 4165,
+          "total_social_insurance": 102607
+        },
+        "resident_tax": 14300.0,
+        "income_tax": 15200.0,
+        "total_deductions": 132107.0,
+        "net_payout": 605627.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-43",
+          "input_employee_name": "DatasetB Employee 43",
+          "select_department": "Sales",
+          "input_base_salary": 635000.0,
+          "input_commute_allowance": 43500.0,
+          "input_overtime_pay": 59234,
+          "input_retroactive_adj": 0.0,
+          "input_health_insurance": 34920,
+          "input_employees_pension": 63522,
+          "input_employment_insurance": 4165,
+          "input_resident_tax": 14300.0,
+          "input_income_tax": 15200.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-191537-LAPTOP-76QMG9DE (2026-07-01T19:19:17Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.387049+00:00"
+      }
+    },
+    {
+      "employee_id": "DB-QMG9DE-44",
+      "employee_name": "DatasetB Employee 44",
+      "department": "HR",
+      "status": "AUTOMATED_APPROVED",
+      "manual_review_required": false,
+      "review_reasons": [],
+      "financials": {
+        "base_salary": 530000.0,
+        "commute_allowance": 34500.0,
+        "overtime_pay": 20372,
+        "retroactive_adjustment": 5000.0,
+        "statutory_deductions": {
+          "health_insurance": 27935,
+          "employees_pension": 50817,
+          "employment_insurance": 3332,
+          "total_social_insurance": 82084
+        },
+        "resident_tax": 21200.0,
+        "income_tax": 9800.0,
+        "total_deductions": 113084.0,
+        "net_payout": 476788.0
+      },
+      "portal_dispatch_payload": {
+        "endpoint": "http://127.0.0.1:5132/#/payroll-items",
+        "target_system": "HR人事給与システム",
+        "form_fields": {
+          "input_employee_id": "DB-QMG9DE-44",
+          "input_employee_name": "DatasetB Employee 44",
+          "select_department": "HR",
+          "input_base_salary": 530000.0,
+          "input_commute_allowance": 34500.0,
+          "input_overtime_pay": 20372,
+          "input_retroactive_adj": 5000.0,
+          "input_health_insurance": 27935,
+          "input_employees_pension": 50817,
+          "input_employment_insurance": 3332,
+          "input_resident_tax": 21200.0,
+          "input_income_tax": 9800.0,
+          "input_remarks": "Dataset B payroll automation - session ses_20260701-191537-LAPTOP-76QMG9DE (2026-07-01T19:24:50Z)"
+        },
+        "dispatch_timestamp": "2026-09-16T19:57:27.387058+00:00"
+      }
+    }
+  ]
+}

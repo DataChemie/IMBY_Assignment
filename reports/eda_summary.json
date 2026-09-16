@@ -1,0 +1,615 @@
+{
+  "dataset_a": {
+    "sessions_analyzed": 15,
+    "total_events": 37754,
+    "top_apps": [
+      [
+        "Google Chrome",
+        27788
+      ],
+      [
+        "Notepad",
+        6248
+      ],
+      [
+        "Microsoft Word",
+        1673
+      ],
+      [
+        "Windows Explorer",
+        756
+      ],
+      [
+        "Microsoft PowerPoint",
+        541
+      ],
+      [
+        "WindowsTerminal",
+        308
+      ],
+      [
+        "Microsoft Excel",
+        134
+      ],
+      [
+        "procmine-desktop-agent",
+        122
+      ],
+      [
+        "Settings",
+        42
+      ],
+      [
+        "claude",
+        16
+      ]
+    ],
+    "top_titles": [
+      [
+        "財務会計システム - Google Chrome",
+        9277
+      ],
+      [
+        "受発注在庫管理システム - Google Chrome",
+        8995
+      ],
+      [
+        "HR人事給与システム - Google Chrome",
+        8245
+      ],
+      [
+        "*Untitled - Notepad",
+        3388
+      ],
+      [
+        "ProcMine SSO — シングルサインオン - Google Chrome",
+        994
+      ],
+      [
+        "*launch_m1.ps1 - Notepad",
+        806
+      ],
+      [
+        "Supplier_List  -  Compatibility Mode - Word",
+        555
+      ],
+      [
+        "*追跡確認 SHIP-2026-3075 (近鉄ロジスティクス) - Notepad",
+        545
+      ],
+      [
+        "HR_Policy  -  Compatibility Mode - Word",
+        522
+      ],
+      [
+        "Budget_Report - PowerPoint",
+        418
+      ],
+      [
+        "documents - File Explorer",
+        413
+      ],
+      [
+        "*SETUP.md - Notepad",
+        404
+      ],
+      [
+        "*Inventory catalog metrics - Notepad",
+        378
+      ],
+      [
+        "*確認 算定基礎届提出 - Notepad",
+        324
+      ],
+      [
+        "Supplier_List [Compatibility Mode] - Word",
+        260
+      ]
+    ],
+    "top_urls": [
+      [
+        "http://127.0.0.1:5122/#/resident-tax",
+        1534
+      ],
+      [
+        "http://127.0.0.1:5123/#/leave-applications",
+        1529
+      ],
+      [
+        "http://127.0.0.1:5123/#/resident-tax",
+        1447
+      ],
+      [
+        "http://127.0.0.1:5122/",
+        1420
+      ],
+      [
+        "http://127.0.0.1:5124/#/payroll-items",
+        1297
+      ],
+      [
+        "http://127.0.0.1:5122/#/leave-applications",
+        1290
+      ],
+      [
+        "http://127.0.0.1:5124/#/onboarding",
+        1247
+      ],
+      [
+        "http://127.0.0.1:5123/#/payroll-items",
+        1244
+      ],
+      [
+        "http://127.0.0.1:5124/#/resident-tax",
+        1210
+      ],
+      [
+        "http://127.0.0.1:5124/#/leave-applications",
+        1052
+      ]
+    ],
+    "event_types": [
+      [
+        "app_switch",
+        11987
+      ],
+      [
+        "keystroke",
+        9136
+      ],
+      [
+        "screenshot_smart",
+        7845
+      ],
+      [
+        "shortcut",
+        3137
+      ],
+      [
+        "mouse_click",
+        1478
+      ],
+      [
+        "clipboard_change",
+        1271
+      ],
+      [
+        "browser_click",
+        1082
+      ],
+      [
+        "mouse_scroll",
+        689
+      ],
+      [
+        "browser_navigation",
+        360
+      ],
+      [
+        "browser_form_input",
+        360
+      ]
+    ],
+    "top_shortcuts": []
+  },
+  "dataset_b": {
+    "sessions_analyzed": 15,
+    "total_events": 21023,
+    "top_apps": [
+      [
+        "Microsoft Edge",
+        13497
+      ],
+      [
+        "Microsoft Word",
+        4114
+      ],
+      [
+        "Microsoft Excel",
+        1201
+      ],
+      [
+        "OpenWith",
+        757
+      ],
+      [
+        "Notepad",
+        586
+      ],
+      [
+        "WindowsTerminal",
+        358
+      ],
+      [
+        "procmine-desktop-agent",
+        205
+      ],
+      [
+        "Windows Explorer",
+        85
+      ],
+      [
+        "ms-teams",
+        75
+      ],
+      [
+        "prl_cc",
+        21
+      ]
+    ],
+    "top_titles": [
+      [
+        "HR人事給与システム - Profile 1 - Microsoft​ Edge",
+        3469
+      ],
+      [
+        "財務会計システム - Profile 1 - Microsoft​ Edge",
+        3024
+      ],
+      [
+        "受発注在庫管理システム - Profile 1 - Microsoft​ Edge",
+        2264
+      ],
+      [
+        "HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge",
+        1475
+      ],
+      [
+        "財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge",
+        1192
+      ],
+      [
+        "受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge",
+        1068
+      ],
+      [
+        "keiyaku_kaijo_tetsuzuki  -  Compatibility Mode - Word",
+        672
+      ],
+      [
+        "expense_calc - Excel",
+        605
+      ],
+      [
+        "nyusha_checklist_shinsotsu_batch  -  Compatibility Mode - Word",
+        577
+      ],
+      [
+        "budget_analysis - Excel",
+        573
+      ],
+      [
+        "gyomu_itaku_kyuuyo_kitei  -  Compatibility Mode - Word",
+        552
+      ],
+      [
+        "Windows PowerShell",
+        358
+      ],
+      [
+        "HR人事給与システム and 2 more pages - Profile 1 - Microsoft​ Edge",
+        351
+      ],
+      [
+        "shinkuitorihikisaki_touroku_tetsuzuki  -  Compatibility Mode - Word",
+        310
+      ],
+      [
+        "shinkui_keiyaku_tetsuzuki  -  Compatibility Mode - Word",
+        301
+      ]
+    ],
+    "top_urls": [
+      [
+        "http://127.0.0.1:5132/#/payroll-items",
+        1607
+      ],
+      [
+        "http://127.0.0.1:5134/#/payroll-items",
+        1036
+      ],
+      [
+        "http://127.0.0.1:5133/#/payroll-items",
+        991
+      ],
+      [
+        "http://127.0.0.1:5132/#/onboarding",
+        961
+      ],
+      [
+        "http://127.0.0.1:5133/#/resident-tax",
+        925
+      ],
+      [
+        "http://127.0.0.1:5134/#/leave-applications",
+        915
+      ],
+      [
+        "http://127.0.0.1:5133/#/onboarding",
+        685
+      ],
+      [
+        "http://127.0.0.1:5132/#/leave-applications",
+        659
+      ],
+      [
+        "http://127.0.0.1:5134/#/social-insurance",
+        608
+      ],
+      [
+        "http://127.0.0.1:5132/#/social-insurance",
+        463
+      ]
+    ],
+    "event_types": [
+      [
+        "screenshot_smart",
+        4883
+      ],
+      [
+        "keystroke",
+        4850
+      ],
+      [
+        "mouse_click",
+        2144
+      ],
+      [
+        "browser_click",
+        1923
+      ],
+      [
+        "app_switch",
+        1771
+      ],
+      [
+        "mouse_scroll",
+        1733
+      ],
+      [
+        "shortcut",
+        1447
+      ],
+      [
+        "clipboard_change",
+        889
+      ],
+      [
+        "browser_form_input",
+        610
+      ],
+      [
+        "browser_navigation",
+        205
+      ]
+    ],
+    "top_shortcuts": [],
+    "sessions": [
+      {
+        "session_id": "ses_20260701-164424-CHAITANYA0BCF",
+        "events": 1613,
+        "duration_sec": 683.0,
+        "top_apps": [
+          "Microsoft Edge",
+          "Microsoft Word",
+          "WindowsTerminal"
+        ],
+        "top_titles": [
+          "財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge",
+          "受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge",
+          "Windows PowerShell"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-171614-CHAITANYA0BCF",
+        "events": 2015,
+        "duration_sec": 838.7,
+        "top_apps": [
+          "Microsoft Edge",
+          "Microsoft Excel",
+          "Microsoft Word"
+        ],
+        "top_titles": [
+          "budget_analysis - Excel",
+          "HR人事給与システム - Profile 1 - Microsoft​ Edge",
+          "財務会計システム - Profile 1 - Microsoft​ Edge"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-173246-SIDDHIGUPTAB00B",
+        "events": 1439,
+        "duration_sec": 767.4,
+        "top_apps": [
+          "Microsoft Edge",
+          "Microsoft Word",
+          "Notepad"
+        ],
+        "top_titles": [
+          "受発注在庫管理システム - Profile 1 - Microsoft​ Edge",
+          "HR人事給与システム - Profile 1 - Microsoft​ Edge",
+          "財務会計システム - Profile 1 - Microsoft​ Edge"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-173642-NEELA9BAF",
+        "events": 1136,
+        "duration_sec": 620.9,
+        "top_apps": [
+          "Microsoft Edge",
+          "Microsoft Excel",
+          "Microsoft Word"
+        ],
+        "top_titles": [
+          "HR人事給与システム and 2 more pages - Profile 1 - Microsoft​ Edge",
+          "財務会計システム and 2 more pages - Profile 1 - Microsoft​ Edge",
+          "受発注在庫管理システム and 2 more pages - Profile 1 - Microsoft​ Edge"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-175258-LAPTOP-76QMG9DE",
+        "events": 1550,
+        "duration_sec": 818.0,
+        "top_apps": [
+          "Microsoft Edge",
+          "Microsoft Word",
+          "OpenWith"
+        ],
+        "top_titles": [
+          "HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge",
+          "財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge",
+          "gyomu_itaku_kyuuyo_kitei  -  Compatibility Mode - Word"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-175747-SIDDHIGUPTAB00B",
+        "events": 1309,
+        "duration_sec": 690.8,
+        "top_apps": [
+          "Microsoft Edge",
+          "Notepad",
+          "Microsoft Excel"
+        ],
+        "top_titles": [
+          "受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge",
+          "HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge",
+          "財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-181413-LAPTOP-76QMG9DE",
+        "events": 1518,
+        "duration_sec": 785.3,
+        "top_apps": [
+          "Microsoft Edge",
+          "Microsoft Word",
+          "OpenWith"
+        ],
+        "top_titles": [
+          "受発注在庫管理システム - Profile 1 - Microsoft​ Edge",
+          "財務会計システム - Profile 1 - Microsoft​ Edge",
+          "HR人事給与システム - Profile 1 - Microsoft​ Edge"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-181913-SIDDHIGUPTAB00B",
+        "events": 1165,
+        "duration_sec": 616.1,
+        "top_apps": [
+          "Microsoft Edge",
+          "Microsoft Word",
+          "Microsoft Excel"
+        ],
+        "top_titles": [
+          "HR人事給与システム - Profile 1 - Microsoft​ Edge",
+          "受発注在庫管理システム - Profile 1 - Microsoft​ Edge",
+          "財務会計システム - Profile 1 - Microsoft​ Edge"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-182634-NEELA9BAF",
+        "events": 1001,
+        "duration_sec": 631.4,
+        "top_apps": [
+          "Microsoft Edge",
+          "Microsoft Word",
+          "Microsoft Excel"
+        ],
+        "top_titles": [
+          "HR人事給与システム - Profile 1 - Microsoft​ Edge",
+          "受発注在庫管理システム - Profile 1 - Microsoft​ Edge",
+          "expense_calc - Excel"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-183232-LAPTOP-76QMG9DE",
+        "events": 781,
+        "duration_sec": 429.5,
+        "top_apps": [
+          "Microsoft Edge",
+          "Notepad",
+          "Microsoft Word"
+        ],
+        "top_titles": [
+          "HR人事給与システム - Profile 1 - Microsoft​ Edge",
+          "受発注在庫管理システム - Profile 1 - Microsoft​ Edge",
+          "財務会計システム - Profile 1 - Microsoft​ Edge"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-184201-LAPTOP-76QMG9DE",
+        "events": 1895,
+        "duration_sec": 986.8,
+        "top_apps": [
+          "Microsoft Edge",
+          "Microsoft Word",
+          "Notepad"
+        ],
+        "top_titles": [
+          "財務会計システム - Profile 1 - Microsoft​ Edge",
+          "HR人事給与システム - Profile 1 - Microsoft​ Edge",
+          "受発注在庫管理システム - Profile 1 - Microsoft​ Edge"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-184201-LAPTOP-76QMG9DE",
+        "events": 1895,
+        "duration_sec": 986.8,
+        "top_apps": [
+          "Microsoft Edge",
+          "Microsoft Word",
+          "Notepad"
+        ],
+        "top_titles": [
+          "財務会計システム - Profile 1 - Microsoft​ Edge",
+          "HR人事給与システム - Profile 1 - Microsoft​ Edge",
+          "受発注在庫管理システム - Profile 1 - Microsoft​ Edge"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-190250-NEELA9BAF",
+        "events": 1146,
+        "duration_sec": 605.4,
+        "top_apps": [
+          "Microsoft Edge",
+          "Microsoft Word",
+          "Microsoft Excel"
+        ],
+        "top_titles": [
+          "財務会計システム - Profile 1 - Microsoft​ Edge",
+          "HR人事給与システム - Profile 1 - Microsoft​ Edge",
+          "expense_calc - Excel"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-191537-LAPTOP-76QMG9DE",
+        "events": 1562,
+        "duration_sec": 677.7,
+        "top_apps": [
+          "Microsoft Edge",
+          "OpenWith",
+          "Microsoft Word"
+        ],
+        "top_titles": [
+          "HR人事給与システム and 1 more page - Profile 1 - Microsoft​ Edge",
+          "受発注在庫管理システム and 1 more page - Profile 1 - Microsoft​ Edge",
+          "財務会計システム and 1 more page - Profile 1 - Microsoft​ Edge"
+        ]
+      },
+      {
+        "session_id": "ses_20260701-192455-NEELA9BAF",
+        "events": 998,
+        "duration_sec": 664.0,
+        "top_apps": [
+          "Microsoft Edge",
+          "Microsoft Word",
+          "Microsoft Excel"
+        ],
+        "top_titles": [
+          "HR人事給与システム - Profile 1 - Microsoft​ Edge",
+          "財務会計システム - Profile 1 - Microsoft​ Edge",
+          "受発注在庫管理システム - Profile 1 - Microsoft​ Edge"
+        ]
+      }
+    ]
+  }
+}

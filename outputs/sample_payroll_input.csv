@@ -1,0 +1,7 @@
+employee_id,employee_name,department,base_salary,commute_allowance,overtime_hours,resident_tax,income_tax,retroactive_adjustment,remarks
+EMP-8041,佐藤 健一,Engineering,380000,18500,14.5,22400,11200,0,通常給与支給・控除整備
+EMP-8092,田中 美咲,HR,310000,12000,8.0,17800,8400,0,定時退社月間適用
+EMP-8120,高橋 誠,Logistics,290000,25000,32.0,15600,7900,5000,先月通勤費差額支給
+EMP-8155,渡辺 裕二,Operations,340000,15000,52.0,19000,9500,0,四半期決算特別残業
+EMP-8199,小林 麻衣,Executive,650000,165000,0.0,48000,32000,0,新幹線通勤定期支給
+EMP-8230,伊藤 翔太,Sales,330000,14000,12.0,18200,8900,75000,昇格遡及差額一括支給
