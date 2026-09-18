@@ -34,7 +34,7 @@ Training a supervised classifier on Dataset A's process labels and applying it t
 To overcome this gap, we implemented a **two-tier architecture**:
 1. **Tier 1: Generic Change-Point Boundary Detection**: Ground truth boundary analysis across 790 transitions in Dataset A revealed that **73.0% of process boundaries are triggered by an `app_switch` (53.4%) or a `browser_navigation` / URL route change (19.6%)**, accompanied by an inter-event pause. Our boundary detector tracks these universal transition markers rather than department-specific keywords.
 2. **Tier 2: Interruption Smoothing & Semantic Clustering**: Real employees frequently toggle to other applications for 2–5 seconds (e.g. checking a message in Teams or previewing an Excel sheet) before resuming the primary task. Our segmenter absorbs brief interruptions (< 8s) sandwiched between identical task contexts, preventing fragmentation.
-3. **Validation on Dataset A**: Evaluated on 10 held-out Dataset A sessions, the boundary detector achieved **69.1% ground-truth segment recall** with an average boundary error of 35.76 seconds.
+3. **Validation on Dataset A**: Evaluated on 62 held-out Dataset A sessions, the boundary detector achieved **73.9% ground-truth segment recall** with an average boundary error of 51.11 seconds.
 
 ---
 
