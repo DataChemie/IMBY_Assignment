@@ -55,13 +55,12 @@ This log documents the daily hypotheses, experiments, roadblocks, and architectu
 - Calibrate inter-event idle thresholds and minimum execution durations.
 
 ### Experiments & Metrics
-- Analyzed 790 ground-truth boundaries across 25 Dataset A sessions:
+- Analyzed ground-truth boundaries across 62 Dataset A sessions:
   - `app_switch` (53.4%) and `browser_navigation` (19.6%) accounted for **73.0%** of all boundary onsets.
   - Median inter-event pause at boundaries was 0.5s (mean 2.72s).
   - Ground-truth process durations had a minimum of ~16.8s and a median of 24s to 69s.
 - Tested boundary change-point logic against Dataset A GT:
-  - Baseline recall: 58.7% GT recall.
-  - Refined boundary recall: **69.1% GT recall** with an average boundary error of 35.76s across 10 held-out sessions.
+  - Refined boundary recall: **73.9% GT recall** with an average boundary error of 51.11s across 62 held-out sessions.
 
 ---
 
